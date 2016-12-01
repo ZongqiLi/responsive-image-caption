@@ -1,0 +1,63 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+
+}
+
+h1 {
+  font-family: 'Denk One', sans-serif;
+  margin: 0;
+}
+
+.content {
+  font-family: Georgia;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.wrapper {
+  background-color: #e2e2e2;
+  padding: 1rem;
+}
+
+@media only screen and (min-width: 38em) {
+
+  div{
+    color: white;
+  }
+
+  .figue {
+    position: relative;
+
+  }
+
+  .wrapper {
+    position: absolute;
+    bottom: 1.4rem;
+    background-color: rgba(0, 0, 0, .3);
+    width: 45%;
+    right: 1.4rem;
+    border-radius: 1rem;
+  }
+
+}
